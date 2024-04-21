@@ -10,8 +10,19 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	SetConsoleCP(1251);
 
-	int al, b, c, d, k1, k2, k3;
+	int al; //ЭТО ПЕРЕМЕННАЯ ДЛЯ ЧЕГО-ТО ТАМ!
+	int b; // А ЭТО ПЕРЕМЕННАЯ ДЛЯ ЧЕГО-ТО ВОН ТАМ!
+	int c;
+	int d;
+	int k1;
+	int k2;
+	int k3;
 	int res = 0;
+
+	if(al > 0){ //Проверка положительности al
+		printf("Переменная al точно положительная")
+	}
+	
 	printf("Введите al, b, c, d, k1, k2, k3:");
 	scanf("%d %d %d %d %d %d %d", &al, &b, &c, &d, &k1, &k2, &k3);
 
