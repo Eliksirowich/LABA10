@@ -12,13 +12,13 @@ int main() {
 
 	int al, b, c, d, k1, k2, k3;
 	int res = 0;
-	printf("Введите a, b, c, d, k1, k2, k3:");
-	scanf("%d %d %d %d %d %d %d", &a, &b, &c, &d, &k1, &k2, &k3);
+	printf("Введите al, b, c, d, k1, k2, k3:");
+	scanf("%d %d %d %d %d %d %d", &al, &b, &c, &d, &k1, &k2, &k3);
 
 
-	if (a % k1 != 0) {
-		if (!(k2 <= a && a <= k3)) {
-			res += a;
+	if (al % k1 != 0) {
+		if (!(k2 <= al && al <= k3)) {
+			res += al;
 		}
 	}
 	if (b % k1 != 0) {
