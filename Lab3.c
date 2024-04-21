@@ -10,7 +10,7 @@ int main() {
 	setlocale(LC_ALL, "Russian");
 	SetConsoleCP(1251);
 
-	int a, b, c, d, k1, k2, k3;
+	int al, b, c, d, k1, k2, k3;
 	int res = 0;
 	printf("Введите a, b, c, d, k1, k2, k3:");
 	scanf("%d %d %d %d %d %d %d", &a, &b, &c, &d, &k1, &k2, &k3);
